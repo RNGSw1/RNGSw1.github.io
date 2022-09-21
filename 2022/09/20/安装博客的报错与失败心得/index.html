@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>安装博客的报错与失败心得 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  
+  
+  <meta name="description" content="首次错误最初再git bash中进行hexo安装，屡次失败，后根据CSDN博客中的教程再cmd中进行安装成功 最后错误再hexo d阶段进行中无法推送网络报错      情况表现为以下图  先从博客与搜索引擎中搜寻问题确定了三个方向  1.因为网络地址原因，上不去外网，需要挂VPN（此方法因找不到vpn软件而放弃）  2.要安装hexo-deployer-git文件，发现没用（可能是我没装上，我也">
+<meta property="og:type" content="article">
+<meta property="og:title" content="安装博客的报错与失败心得">
+<meta property="og:url" content="http://example.com/2022/09/20/%E5%AE%89%E8%A3%85%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%A5%E9%94%99%E4%B8%8E%E5%A4%B1%E8%B4%A5%E5%BF%83%E5%BE%97/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="首次错误最初再git bash中进行hexo安装，屡次失败，后根据CSDN博客中的教程再cmd中进行安装成功 最后错误再hexo d阶段进行中无法推送网络报错      情况表现为以下图  先从博客与搜索引擎中搜寻问题确定了三个方向  1.因为网络地址原因，上不去外网，需要挂VPN（此方法因找不到vpn软件而放弃）  2.要安装hexo-deployer-git文件，发现没用（可能是我没装上，我也">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/images/QQ%E6%88%AA%E5%9B%BE20220919200732.png">
+<meta property="og:image" content="http://example.com/images/QQ%E6%88%AA%E5%9B%BE20220920123636.png">
+<meta property="og:image" content="http://example.com/images/QQ%E5%9B%BE%E7%89%8720220920124510.png">
+<meta property="og:image" content="http://example.com/images/QQ%E6%88%AA%E5%9B%BE20220920130438.png">
+<meta property="article:published_time" content="2022-09-20T04:16:33.000Z">
+<meta property="article:modified_time" content="2022-09-21T11:49:31.626Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/images/QQ%E6%88%AA%E5%9B%BE20220919200732.png">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/images/default-avatar.jpg">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+<link rel="stylesheet" href="/css/highlight.css">
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+  <div id="fullpage" class="mobile-nav-right">
+    
+      <div id="wrapper" title="图片来自网络">
+    
+    
+      <header id="header">
+  <div id="nav-toggle" class="nav-toggle"></div>
+  <div class="head-box global-width">
+    <nav class="nav-box nav-right">
+      
+        <a class="nav-item" href="/" title
+        
+        >首页</a>
+      
+        <a class="nav-item" href="/archives" title
+        
+        >归档</a>
+      
+    </nav>
+  </div>
+</header>
+      <div id="middlecontent" title class="global-width sidebar-right">
+        <section id="main"><article id="post-安装博客的报错与失败心得" class="article global-container article-type-post" itemscope itemprop="blogPost">
+  
+    <header class="article-header">
+      
+  
+    <h1 class="article-title" itemprop="name">
+      安装博客的报错与失败心得
+    </h1>
+  
+
+    </header>
+  
+  <div class="article-meta">
+    <a href="/2022/09/20/%E5%AE%89%E8%A3%85%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%A5%E9%94%99%E4%B8%8E%E5%A4%B1%E8%B4%A5%E5%BF%83%E5%BE%97/" class="article-date">
+  <time datetime="2022-09-20T04:16:33.000Z" itemprop="datePublished">2022-09-20</time>
+</a>
+    
+    
+  </div>
+  
+    <span id="busuanzi_container_page_pv">
+      本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+    </span>
+  
+
+  <div class="article-inner">
+    
+    <div class="article-content article-content-cloud" itemprop="articleBody">
+      
+        <h2 id="首次错误"><a href="#首次错误" class="headerlink" title="首次错误"></a>首次错误</h2><p>最初再git bash中进行hexo安装，屡次失败，后根据CSDN博客中的教程再cmd中进行安装成功</p>
+<h2 id="最后错误"><a href="#最后错误" class="headerlink" title="最后错误"></a>最后错误</h2><p>再hexo d阶段进行中无法推送网络报错      情况表现为以下图</p>
+<p><img src="/images/QQ%E6%88%AA%E5%9B%BE20220919200732.png"></p>
+<p>先从博客与搜索引擎中搜寻问题确定了三个方向</p>
+<ul>
+<li><p>1.因为网络地址原因，上不去外网，需要挂VPN（此方法因找不到vpn软件而放弃）</p>
+</li>
+<li><p>2.要安装hexo-deployer-git文件，<del>发现没用</del>（可能是我没装上，我也不知道安装成功的标志）</p>
+</li>
+<li><p>3.更换镜像源 从网上找到淘宝的地址（测试完没用）T T</p>
+<h2 id="柳暗花明又一村"><a href="#柳暗花明又一村" class="headerlink" title="柳暗花明又一村"></a>柳暗花明又一村</h2><p>最终从一篇博客中发现安装代码可以跳过密匙认证（因为我hexo d就是为了进入密匙认证）</p>
+<p><img src="/images/QQ%E6%88%AA%E5%9B%BE20220920123636.png"></p>
+<p>输入上图指令后发现大工告成！（激动.jdg）</p>
+<p><img src="/images/QQ%E5%9B%BE%E7%89%8720220920124510.png"></p>
+<p>留下成功的泪水</p>
+<hr>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>!</p>
+<p>啥也没有</p>
+<p><img src="/images/QQ%E6%88%AA%E5%9B%BE20220920130438.png"></p>
+</li>
+</ul>
+
+      
+    </div>
+    
+      <footer class="article-footer">
+        完
+      </footer>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  <div class="article-nav-block">
+    
+  </div>
+  <div class="article-nav-block">
+    
+      <a href="/2022/09/19/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+        <div class="article-nav-title">Hello World</div>
+        <strong class="article-nav-caption"></strong>
+      </a>
+    
+  </div>
+</nav>
+
+    <link rel="stylesheet" href="/css/gitment.css"> 
+<script src="/js/gitment.js"></script>
+
+<div id="gitmentContainer"></div>
+
+<script>
+var gitment = new Gitment({
+  owner: '',
+  repo: '',
+  oauth: {
+    client_id: '',
+    client_secret: '',
+  },
+})
+gitment.render('gitmentContainer')
+</script>
+
+  
+  
+</article>
+</section>
+        <aside id="sidebar">
+  
+    <div class="widget-box">
+  <div class="avatar-box">
+    <img class="avatar" src="/images/default-avatar.jpg" title="图片来自网络"></img>
+    <h3 class="avatar-name">
+      
+        RNGSw1
+      
+    </h3>
+    <p class="avatar-slogan">
+      萌新一枚，请教导
+    </p>
+  </div>
+</div>
+
+
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-box">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/09/">September 2022</a></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-box">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2022/09/20/%E5%AE%89%E8%A3%85%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%A5%E9%94%99%E4%B8%8E%E5%A4%B1%E8%B4%A5%E5%BF%83%E5%BE%97/">安装博客的报错与失败心得</a>
+          </li>
+        
+          <li>
+            <a href="/2022/09/19/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+      <div class="widget-box">
+    <h3 class="widget-title">友链</h3>
+    <div class="widget">
+      
+        <a style="display: block;" href="https://yiluyanxia.github.io/" title target='_blank'
+        >一路眼瞎</a>
+      
+        <a style="display: block;" href="https://mandylch.github.io" title target='_blank'
+        >王者100星</a>
+      
+        <a style="display: block;" href="https://beethovanc.github.io" title target='_blank'
+        >国服小只因</a>
+      
+    </div>
+  </div>
+
+  
+</aside>
+      </div>
+      <footer id="footer">
+  <div class="foot-box global-width">
+    &copy; 2022 John Doe &nbsp;&nbsp;
+    Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    &nbsp;|&nbsp;主题 <a target="_blank" rel="noopener" href="https://github.com/yiluyanxia/hexo-theme-antiquity">antiquity</a>
+    <br>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span id="busuanzi_container_site_pv">不蒜子告之   阁下是第<span id="busuanzi_value_site_pv"></span>个访客</span>
+  </div>
+</footer>
+      <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script>
+if (!window.jQuery) {
+var script = document.createElement('script');
+script.src = "/js/jquery-2.0.3.min.js";
+document.body.write(script);
+}
+</script>
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+    </div>
+    <nav id="mobile-nav" class="mobile-nav-box">
+  <div class="mobile-nav-img mobile-nav-top"></div>
+  
+    <a href="/" class="mobile-nav-link">首页</a>
+  
+    <a href="/archives" class="mobile-nav-link">归档</a>
+  
+  <div class="mobile-nav-img  mobile-nav-bottom"></div>
+</nav>    
+  </div>
+</body>
+</html>
